@@ -8,3 +8,9 @@ pacman -S gcc
 gcc -o hello hello.c
 ./hello
 ```
+### TEST using omp.h
+```bash
+gcc -o hello hello.c -fopenmp
+./hello
+```
+
